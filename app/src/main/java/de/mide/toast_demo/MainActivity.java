@@ -17,12 +17,13 @@ import android.widget.Toast;
 /**
  * Demo-App zur Erstellung von "Custom Toasts":
  * Toast-Objekte an bestimmten Bildschirm-Positionen, z.B. "oben" oder "links unten".
- * Toast-Objekte mit eigenem View-Elementen als Inhalt.
+ * Auch Toast-Objekte mit eigenem View-Elementen als Inhalt.
  * <br><br>
  *
  * This project is licensed under the terms of the BSD 3-Clause License.
  */
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends Activity
+                          implements OnClickListener {
 
     /** Tag für Log-Messages der ganzen App. */
     public static final String TAG4LOGGING = "Toast_Demo";
