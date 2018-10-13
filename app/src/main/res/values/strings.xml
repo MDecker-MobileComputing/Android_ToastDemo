@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toast-Demo</string>
+
+    <string name="button_label_links"     >Links</string>
+    <string name="button_label_rechts"    >Rechts</string>
+    <string name="button_label_oben"      >Oben</string>
+    <string name="button_label_unten"     >Unten</string>
+    <string name="button_label_zentriert" >Zentriert</string>
+
+    <string name="button_label_linksoben"   >Links oben</string>
+    <string name="button_label_rechtsunten" >Rechts unten</string>
+
+    <string name="button_label_custom1" >Custom Toast 1</string>
+    <string name="button_label_custom2" >Custom Toast 2</string>
+
+    <string name="text_label_custom_toast" >Noch ein Custom Toast</string>
+    <string name="text_bildbeschreibung"   >Ein Icon</string>
+
+</resources>

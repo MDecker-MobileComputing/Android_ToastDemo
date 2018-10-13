@@ -1,0 +1,73 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="5dp"
+	tools:context=".MainActivity" >
+
+    
+	<Button
+        android:id="@+id/button_toast_links"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/button_label_links" />
+
+	<Button
+        android:id="@+id/button_toast_oben"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/button_toast_links"
+	    android:text="@string/button_label_oben" />
+				
+	<Button
+        android:id="@+id/button_toast_rechts"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/button_toast_oben"
+	    android:text="@string/button_label_rechts" />
+	    
+	<Button
+        android:id="@+id/button_toast_zentriert"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/button_toast_rechts"
+	    android:text="@string/button_label_zentriert" />
+	    
+	
+	<!-- Neue Zeile mit Buttons -->
+	<Button
+        android:id="@+id/button_toast_links_oben"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/button_toast_oben"
+		android:text="@string/button_label_linksoben" />
+			
+	<Button
+        android:id="@+id/button_toast_rechts_unten"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/button_toast_links_oben"
+		android:layout_below="@id/button_toast_oben"
+		android:text="@string/button_label_rechtsunten" />
+	
+	
+	<!-- Neue Zeile mit Buttons mit Custom Toasts -->
+	<Button
+        android:id="@+id/button_toast_custom1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:layout_below="@id/button_toast_links_oben"
+		android:text="@string/button_label_custom1" />
+
+	<Button
+        android:id="@+id/button_toast_custom2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/button_toast_custom1"
+		android:layout_marginTop="40dp"
+		android:layout_below="@id/button_toast_links_oben"
+		android:text="@string/button_label_custom2" />
+	
+</RelativeLayout>

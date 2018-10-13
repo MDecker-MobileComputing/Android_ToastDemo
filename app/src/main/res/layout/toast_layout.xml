@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- Dieses Layout wird für ein Toast-Objekt verwendet -->
+
+
+    <TextView
+        android:id="@+id/textview_oben"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/text_label_custom_toast"
+        android:background="#80CCFF99" />
+    
+    
+    <!-- ImageView zur Anzeige des Icons der App -->
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_oben"
+        android:padding="5dp"
+		android:background="#80FF9933"
+        android:contentDescription="@string/text_bildbeschreibung"
+        android:src="@drawable/ic_launcher_foreground" />
+                
+</RelativeLayout>
