@@ -1,6 +1,5 @@
 package de.mide.toast_demo;
 
-import de.mide.toast_demo.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -48,11 +47,11 @@ public class MainActivity extends Activity
 
     /**
      * Lifecycle-Methode: Lädt Layout-Datei, speichert Referenzen
-     * auf Button-Objekte in Member-Variablen und setzt den
-     * Event-Handler.
+     * auf Button-Objekte in Member-Variablen und setzt den Event-Handler.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -235,7 +234,7 @@ public class MainActivity extends Activity
         // Die beiden TextView-Elemente programmatisch dem Layout hinzufügen
         LayoutParams layoutParams =
                 new LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT );
+                                  LinearLayout.LayoutParams.WRAP_CONTENT );
 
         linLayout.addView(textView1, layoutParams);
         linLayout.addView(textView2, layoutParams);
