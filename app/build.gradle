@@ -2,13 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "de.mide.toast_demo"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.2 (September 2018)"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

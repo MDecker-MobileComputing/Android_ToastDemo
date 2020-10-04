@@ -29,25 +29,17 @@ public class MainActivity extends Activity
 
 
     protected Button _buttonToastLinks         = null;
-
     protected Button _buttonToastRechts        = null;
-
     protected Button _buttonToastOben          = null;
-
     protected Button _buttonToastZentriert     = null;
-
     protected Button _buttonToastLinksOben     = null;
-
     protected Button _buttonToastRechtsUnten   = null;
-
     protected Button _buttonToastCustomLayout1 = null;
-
     protected Button _buttonToastCustomLayout2 = null;
 
 
     /**
-     * Lifecycle-Methode: Lädt Layout-Datei, speichert Referenzen
-     * auf Button-Objekte in Member-Variablen und setzt den Event-Handler.
+     * Lifecycle-Methode zur Initialisierung des Activity-Objekts.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
